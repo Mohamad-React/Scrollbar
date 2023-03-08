@@ -1,16 +1,23 @@
-import Main from "./Components/Main";
 import React from "react";
 
+import Navbar from "./Components/Navbar";
+
 import "./App.css";
+import Content from "./Components/Content";
+import Scroller from "./Components/Scroller";
 
 const App = () => {
 
 
 
   return (
-    <div >
-     
-    </div>
+        <>
+            <Navbar />
+             <Scroller/>
+            <Content/>
+        
+        
+        </>
   );
 };
 
